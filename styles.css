@@ -1,0 +1,289 @@
+html{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5DC;
+  margin: 0;
+}
+
+nav>a {
+ color: white;
+ font-size: 20px;
+ word-spacing: 1px;
+ text-decoration: none;
+ font-family: Monospace;
+}
+
+nav {
+ margin-top: -3.8%;
+ padding-left: 50%;
+ word-spacing: 20px;
+}
+
+nav > a:hover {
+  color: #FF7F11;
+  text-decoration: underline;
+  text-decoration-color: #FF7F11;
+  text-underline-offset: 0.3em;
+}
+
+header {
+  background-color: rgb(0,0,0);
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  top: 0;
+  left: 0;
+}
+
+p[id="head"] {
+  color: white;
+  font-style: bold;
+  font-family: Monospace;
+  font-size: 30px;
+  padding-left: 110px;
+  margin-top: 7px;
+}
+
+#head-image {
+  background-image: url("https://img.freepik.com/premium-photo/social-media-day-media-content-online-chat-multimedia-internet-sharimg-technology-message-likes-subscriptions-email-life-network-fashionable-people-search-generative-ai_887181-1771.jpg?w=740");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 5%;
+  border: none;
+  margin-left: -0px;
+  margin-right: -0px;
+}
+
+p[id="heading"] {
+  font-size: 70px;
+  margin-top: 40vh;
+  margin-bottom: auto;
+  font-family: Monospace;
+  text-align: center;
+  font-style: bold ;
+  color: #FFFFFF;
+}
+
+#bio, #study, #achieve{
+  border: none;
+}
+
+.intro {
+  display: flex;
+  background-color: white;
+  border: none;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.column, .col,.columnss1, .columnss2 {
+  flex: 50%;
+}
+
+.columnss2 {
+  line-height: 10px;
+  margin-left: 0px;
+  margin-right: 60px;
+  padding: none;
+  
+}
+
+.columnss1 {
+  line-height: 10px;
+  margin-right: 20px;
+  margin-left: 2px;
+  
+}
+
+
+
+.col1,.col2,.col3 {
+  flex: 30%;
+  height: 35vh;
+  width: 10vw;
+  margin-right: 10px;
+  margin-left: auto;
+  margin-bottom: 20vh;
+}
+
+img {
+  width: 25vw;
+  height: 35vh;
+}
+
+figcaption{
+  margin-top: -3px;
+  background-color: white;
+  font-family: Monospace;
+  font-size: 20px;
+  font-weight: bold;
+  width: 25vw;
+  text-align: center;
+}
+
+
+
+.cols, .columnss {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education {
+  display:flex;
+  background-color: white;
+  border-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: none;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+fieldset[id="pro"] {
+  border: none;
+  margin-bottom: 10%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+a {
+ text-decoration: none;
+}
+
+a:hover, i:hover {
+  color: blue;
+}
+
+.achievements{
+  margin-left: 100px;
+  margin-right: 100px;
+  border: none;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#educate {
+ background-color: #0096FF;
+ border: none;
+
+ margin-bottom: -8px;
+}
+
+h2 {
+  font-size: 35px;
+  font-style: bold 10px;
+  font-family: arial;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+  text-decoration-color: #387ADF;
+  text-decoration-thickness: 1vh;
+}
+
+h2[id="port"] {
+   font-size: 40px;
+   font-style: bold 90px;
+   font-family: sans-serif;
+}
+
+h2[id="cent"], h2[id="port"]{
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-style: italic bold;
+  font-family: arial;
+}
+
+p[id="achieve"], ul > li, ul, #intern{
+  color: #615c5b;
+  line-height: 30px; 
+  font-size: 20px;
+}
+
+main {
+  font-family: arial;
+}
+
+#intro,#intro2, #intro3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #615c5b;
+}
+
+#intro2 {
+  line-height: 10vh;
+}
+
+
+#about {
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #615c5b;
+  line-height: 6vh;
+}
+
+span[id="bold"]{
+  font-weight: bold;
+}
+
+#skill {
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #615c5b;
+}
+
+.py, .ml, .jav, .sq, .htm, .cs, .js{
+  background-color: #B9D9EB;
+  padding-top: 15px;
+  padding-left: 10px;
+  margin-right: 5vw;
+}
+
+.py2 {
+  background-color: blue;
+  padding-top: 15px;
+  padding-left: 5px;
+  margin-top: -15px;
+  margin-right: 10vw;
+  margin-left: -9px;
+}
+
+.sq2, .ml2 {
+  background-color: blue;
+  padding-top: 15px;
+  padding-left: 5px;
+  margin-top: -15px;
+  margin-right: 14vw;
+  margin-left: -9px;
+}
+
+.htm2, .cs2, .jav2, .js2 {
+  background-color: blue;
+  padding-top: 15px;
+  padding-left: 5px;
+  margin-top: -15px;
+  margin-right: 20vw;
+  margin-left: -9px;
+}
+
+img[id="pic"] {
+  height: 30vh;
+  width: 12vw;
+}
+
